@@ -7,9 +7,14 @@
   outline: none;
   scroll-behavior: smooth;
   font-family :'Poppins', sans-serif;
+  overflow: hidden;
 }
 
 :root {
   --btcolor:#EAEFF1;
   --bthovercolor:#7AD4F8;
+}
+
+body {
+  height: 100vh;
 }

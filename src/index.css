@@ -1,8 +1,11 @@
 .header {
-  margin: 20px 400px;
+  margin: 20px;
   border-radius: 200px;
+  margin: 20px 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
 }
+
+
 
 .navbar {
   display: flex;
@@ -25,8 +28,27 @@
 .navbar a:hover {
   background: var(--bthovercolor);
 }
-
-.bx {
-  line-height: 4;
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+  margin-top: 0;
+  transform: translateY(8in);
 }
+
+.footer .cart-add {
+  background:	#696969;
+  padding: 12px; 
+  margin-top: 0;
+  border-radius: 15px;
+}
+.header .navbar .material-symbols-outlined {
+  margin-top: 20px;
+}
+
+.footer .cart-add .material-symbols-outlined {
+  font-size: 29px;
+  color: white;
+}
+
 
