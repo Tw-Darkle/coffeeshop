@@ -33,7 +33,7 @@
   justify-content: flex-end;
   margin-right: 150px;
   margin-top: 0;
-  transform: translateY(8in);
+  transform: translateY(5.6in);
 }
 
 .footer .cart-add {
@@ -51,4 +51,19 @@
   color: white;
 }
 
+.menucoffee {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.header-card img {
+  width: 15;
+  height: 170px;
+  border-radius: 20px;
+}
+
+.body-card p{
+  font-size: 1.3rem;
+}
 
