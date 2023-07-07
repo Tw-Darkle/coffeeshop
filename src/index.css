@@ -67,3 +67,34 @@
   font-size: 1.3rem;
 }
 
+.popup-order {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+}
+
+.card-order{
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+
+.titie {
+  font-size: 2rem;
+}
+
+.card-order .card-header img {
+  width: 20;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.card-order .order  p {
+  font-size: 1.7rem;
+}
+
+.card-order .order li {
+  font-size: 1.5rem;
+}
+
