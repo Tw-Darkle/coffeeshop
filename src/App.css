@@ -13,6 +13,8 @@
 :root {
   --btcolor:#EAEFF1;
   --bthovercolor:#7AD4F8;
+  --bgorder:#F6F6F6;
+  --bgsuccessorder:#EAEFF1;
 }
 
 body {

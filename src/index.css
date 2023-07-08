@@ -76,8 +76,12 @@
 
 .card-order{
   display: flex;
-  gap: 20px;
+  justify-content: space-around;
   padding: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  border-radius: 20px;
+  background: var(--bgorder);
 }
 
 .titie {
@@ -98,3 +102,8 @@
   font-size: 1.5rem;
 }
 
+
+
+.card-order .del-order .material-symbols-outlined {
+  font-size: 40px;
+}
