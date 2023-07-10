@@ -75,13 +75,15 @@
 }
 
 .card-order{
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-  margin: 20px;
+  display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
   border-radius: 20px;
   background: var(--bgorder);
+}
+.card-top {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
 }
 
 .titie {
@@ -102,8 +104,33 @@
   font-size: 1.5rem;
 }
 
-
+.card-order p {
+  font-size: 1.2rem;
+  padding: 10px;
+}
 
 .card-order .del-order .material-symbols-outlined {
   font-size: 40px;
+}
+
+.card-order .card-price {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+} 
+
+.card-price {
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 30px;
+}
+
+.card-order .card-price .addorder .material-symbols-outlined {
+  font-size: 20px;
+  color: black;
+}
+
+.card-price .addorder {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
 }
